@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="joke.hfad.com.miudelar.InscripcionACarrera">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="85dp"
+        android:text="En esta pagina podras inscribirte a una de las carreras que figuran en la lista"
+        tools:layout_editor_absoluteY="9dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carreras"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/carreras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="160dp"
+        tools:layout_editor_absoluteX="63dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar inscripción"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="197dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
