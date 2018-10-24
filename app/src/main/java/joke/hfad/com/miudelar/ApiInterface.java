@@ -32,7 +32,10 @@ public interface ApiInterface {
         
     @POST("estudiante/inscripcionExamen")
     public Call<> inscripcionExamen(@Header("Authorization") String authorization, @Body String inscripcionExamenDatos);
+    
+    //@GET("estudiante/consultarCalificaciones/{cedula}/{idAsig_Carrera}
+    //public Call<List<>> getCalificaciones(@Header("Authorization") String authorization, @Path("cedula") String cedula, @Path("idAsig_Carrera") Long idAsig_Carrera);
 
-    /*@POST("/albums")
+    /*@GET("estudiante/albums/{id}")
     public Call<Album> albumData(@Body Album data);*/
 }
