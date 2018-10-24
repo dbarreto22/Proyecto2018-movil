@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = /*"https://jsonplaceholder.typicode.com"*/"http://tsi-diego.eastus.cloudapp.azure.com:8080/miudelar-server/";
+    public static final String BASE_URL = "http://tsi-diego.eastus.cloudapp.azure.com:8080/miudelar-server/";
     private static Retrofit retrofit = null;
 
 
